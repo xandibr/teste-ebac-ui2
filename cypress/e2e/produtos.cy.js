@@ -14,7 +14,7 @@ describe('Funcionalidade Página de produtos', () => {
 
     });
 
-    it.only('Deve adicionar um produto no carrinho', () => {
+    it('Deve adicionar um produto no carrinho', () => {
         var quantidade = 10
 
         cy.get('[class="product-block grid"]')
@@ -28,6 +28,16 @@ describe('Funcionalidade Página de produtos', () => {
         cy.get('.woocommerce-message').should('contain', quantidade +' × “Abominable Hoodie” foram adicionados no seu carrinho.')
 
 
+    });
+
+    it('Deve adicionar produtos ao carrinho - Usando comando customizado', () => {
+        
+        cy.addProdutos('Arcadio Gym Short', '36', 'Blue', 3)
+    });
+
+    it('Deve adicionar produtos ao carrinho - Usando comando customizado', () => {
+        
+        cy.addProdutos('Abominable Hoodie', 'XL', 'Green', 7)
     });
 
 });
