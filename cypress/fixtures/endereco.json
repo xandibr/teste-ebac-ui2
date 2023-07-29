@@ -1,0 +1,41 @@
+{
+    "nome": "Xandim",
+    "sobrenome": "Cavalcanti",
+    "empresa": "Botafogo Líder",
+    "pais": "Brasil",
+    "endereco": "Rua dos Líderes",
+    "numero": "2023",
+    "cidade": "Rio de Janeiro",
+    "estado": "Rio de Janeiro",
+    "cep": "22222-000",
+    "telefone": "(21)972128609",
+    "email": "xandim@teste.com"
+},
+
+{
+    "nome": "Odilon",
+    "sobrenome": "Cavalcanti",
+    "empresa": "Botafogo Líder",
+    "pais": "Brasil",
+    "endereco": "Rua dos Campeões",
+    "numero": "2023",
+    "cidade": "Rio de Janeiro",
+    "estado": "Rio de Janeiro",
+    "cep": "22222-010",
+    "telefone": "(21)972128600",
+    "email": "dilonzinho@teste.com"
+},
+
+{
+    "nome": "Duda",
+    "sobrenome": "Fogão",
+    "empresa": "Botafogo Líder",
+    "pais": "Brasil",
+    "endereco": "Rua do Primeiro Lugar",
+    "numero": "2023",
+    "cidade": "Rio de Janeiro",
+    "estado": "Rio de Janeiro",
+    "cep": "22211-000",
+    "telefone": "(21)972228609",
+    "email": "dudafogao@teste.com"
+}
